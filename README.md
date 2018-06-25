@@ -12,14 +12,14 @@ IO.setup(5,IO,OUT)  #GPIO 5 Green Light as output
 IO.setup(8,IO,IN)  #GPIO 8 IR sesnsor as input
 
 while 1:
-if (IO.input(8)==True):
-print("Object Far")
-IO.(output 3, TRUE)
-IO.(output 5, False)
+ if (IO.input(8)==True):
+  print("Object Far")
+  IO.(output 3, TRUE)
+  IO.(output 5, False)
 
 esle
-print("Object Near")
-IO.(output 5, TRUE)
-IO.(output 3, False)
+  print("Object Near")
+  IO.(output 5, TRUE)
+  IO.(output 3, False)
 
-time.sleep(1.5)
+ time.sleep(1.5)
