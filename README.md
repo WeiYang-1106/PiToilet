@@ -1,8 +1,8 @@
 # PiToilet
 #The project for IoT.
-## This project is used for monitoring whether the toilet is occupied or not 
+### This project is used for monitoring whether the toilet is occupied or not 
 #It may be utiilized in many factories or assembly lines where employees are working in a very stressed and busy environment
-# Written in Python
+### Written in Python
 
 IO.setwarnings(False)
 IO.setmode(IO.BOARD)
