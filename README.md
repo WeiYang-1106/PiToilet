@@ -4,8 +4,8 @@ This project is used for monitoring whether the toilet is occupied or not
 It may be utiilized in many factories or assembly lines where employees are working in a very stressed and busy environment
 ### Written in Python
 
-</IO.setwarnings(False)>
-<IO.setmode(IO.BOARD)>
+IO.setwarnings(False)
+IO.setmode(IO.BOARD)
 
 IO.setup(3,IO,OUT)  #GPIO 3 Red Light as output 
 IO.setup(5,IO,OUT)  #GPIO 5 Green Light as output
