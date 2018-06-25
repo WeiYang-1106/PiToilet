@@ -22,3 +22,4 @@ print("Object Near")
 IO.(output 5, TRUE)
 IO.(output 3, False)
 
+time.sleep(1.5)
